@@ -1,0 +1,45 @@
+2022-03-12 00:06:55.499 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.
+2022-03-12 00:06:55.543 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Hosting environment: Development
+2022-03-12 00:06:55.544 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Content root path: C:\Users\cvincenti\OneDrive - ANDREANI LOGISTICA SA\Documentos\Proyectos\PickingWSApi\src\Api
+2022-03-12 00:07:25.720 | 19 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 102.4656 ms
+2022-03-12 00:07:26.801 | 19 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 33.3099 ms
+2022-03-12 00:07:45.940 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 1.3997 ms
+2022-03-12 00:07:46.839 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 1.1071 ms
+2022-03-12 00:07:47.306 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 1.3144 ms
+2022-03-12 00:07:47.494 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 0.9548 ms
+2022-03-12 00:07:47.696 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 8.0460 ms
+2022-03-12 00:07:47.873 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 0.6661 ms
+2022-03-12 00:07:48.056 | 22 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 3.2892 ms
+2022-03-12 00:08:02.819 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.
+2022-03-12 00:08:02.896 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Hosting environment: Development
+2022-03-12 00:08:02.899 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Content root path: C:\Users\cvincenti\OneDrive - ANDREANI LOGISTICA SA\Documentos\Proyectos\PickingWSApi\src\Api
+2022-03-12 00:08:38.967 | 3 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 363.5334 ms
+2022-03-12 00:08:40.528 | 3 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 94.4430 ms
+2022-03-12 00:09:42.396 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.
+2022-03-12 00:09:42.452 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Hosting environment: Development
+2022-03-12 00:09:42.454 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Content root path: C:\Users\cvincenti\OneDrive - ANDREANI LOGISTICA SA\Documentos\Proyectos\PickingWSApi\src\Api
+2022-03-12 00:10:32.354 | 10 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/56 responded 200 in 31954.7295 ms
+2022-03-12 00:11:59.398 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.
+2022-03-12 00:11:59.461 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Hosting environment: Development
+2022-03-12 00:11:59.463 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Content root path: C:\Users\cvincenti\OneDrive - ANDREANI LOGISTICA SA\Documentos\Proyectos\PickingWSApi\src\Api
+2022-03-12 00:12:22.907 | 12 | EROR | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/cristian responded 500 in 53.5737 ms
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+PickingWSApi.Controllers.V1.TareaController.Get (PickingWSApi)
+PickingWSApi.Controllers.V1.TareaController.GetNombre (PickingWSApi)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.SelectAsync(HttpContext httpContext, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-03-12 00:12:22.984 | 12 | EROR | PickingWSApi | Andreani.ARQ.WebHost.Middleware.FluentValidationMiddleware | InternalServerError - Notify - Code: 500 internal server, Property: Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException, Message: The request matched multiple endpoints. Matches: 
+
+PickingWSApi.Controllers.V1.TareaController.Get (PickingWSApi)
+PickingWSApi.Controllers.V1.TareaController.GetNombre (PickingWSApi)
+2022-03-12 00:12:52.706 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.
+2022-03-12 00:12:52.777 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Hosting environment: Development
+2022-03-12 00:12:52.779 | 1 | INFO | PickingWSApi | Microsoft.Hosting.Lifetime | Content root path: C:\Users\cvincenti\OneDrive - ANDREANI LOGISTICA SA\Documentos\Proyectos\PickingWSApi\src\Api
+2022-03-12 00:13:03.632 | 6 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/busqueda/cristian responded 200 in 75.0644 ms
+2022-03-12 00:13:14.462 | 10 | INFO | PickingWSApi | Serilog.AspNetCore.RequestLoggingMiddleware | HTTP GET /api/Tarea/333 responded 200 in 20.0944 ms

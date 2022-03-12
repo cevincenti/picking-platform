@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PickingWSApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.V1.PersonController.Create(PickingWSApi.Application.UseCase.V1.PersonOperation.Commands.Create.CreatePersonCommand)">
+            <summary>
+            Creación de nueva persona
+            </summary>
+            <param name="body"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApi.Controllers.V1.PersonController.Get">
+            <summary>
+            Listado de persona de la base de datos
+            </summary>
+            <remarks>en los remarks podemos documentar información más detallada</remarks>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

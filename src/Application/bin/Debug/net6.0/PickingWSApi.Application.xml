@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PickingWSApi.Application</name>
+    </assembly>
+    <members>
+        <member name="P:PickingWSApi.Application.UseCase.V1.PersonOperation.Commands.Create.CreatePersonCommand.Nombre">
+            <summary>
+            
+            </summary>
+            <example>Lucas</example>
+        </member>
+        <member name="P:PickingWSApi.Application.UseCase.V1.PersonOperation.Commands.Create.CreatePersonCommand.Apellido">
+            <summary>
+            
+            </summary>
+            <example>Olivera</example>
+        </member>
+    </members>
+</doc>
