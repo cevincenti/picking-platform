@@ -1,4 +1,4 @@
-FROM ghcr.io/architecture-it/net:3.1-sdk as build
+FROM ghcr.io/architecture-it/net:6.0-sdk as build
 WORKDIR /app
 COPY . .
 RUN dotnet restore
